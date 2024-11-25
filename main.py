@@ -25,6 +25,7 @@ def transform_row(row):
         "Squad": row["Squad"],
         "Age": int(row["Age"].split("-")[0]) if pd.notnull(row["Age"]) else None,
         "Born": int(row["Born"]) if pd.notnull(row["Born"]) else None,
+        "EstimatedStartYear": int(row["Estimated_Start_Year"]) if pd.notnull(row["Estimated_Start_Year"]) else None,
         "Stats": {
             "MatchesPlayed": row["MP"] if pd.notnull(row["MP"]) else 0,
             "Starts": row["Starts"] if pd.notnull(row["Starts"]) else 0,
