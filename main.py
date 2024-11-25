@@ -52,7 +52,6 @@ data_subset = data.head(100)
 documents = [transform_row(row) for _, row in data_subset.iterrows()]
 
 # Inserts the data into Mongo
-
 try:
     client = MongoClient(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/') # Connects to mongo
     db = client['football']
@@ -62,6 +61,25 @@ try:
     log.info(f"Collection {collection.name} dropped")
     result = collection.insert_many(documents) # Inserts 100 registers
     log.info(f"Inserted {len(result.inserted_ids)} register(s) to mongo")
+
+
+    manchester_players = data[data['Squad'].str.contains('Manchester', na=False, case=False)]
+
+    if not manchester_players.empty:
+        first_manchester_player_row = manchester_players.iloc[0]
+
+        # Convertir la fila seleccionada usando transform_row
+        first_manchester_player = transform_row(first_manchester_player_row.to_dict())
+
+        # Insertar la jugadora seleccionada como nuevo documento en MongoDB
+        collection.insert_one(first_manchester_player)
+        log.info(f"Inserted player {first_manchester_player['Player']} from Manchester.")
+        print(f"Inserted player {first_manchester_player['Player']} from Manchester.")
+    else:
+        print("No players found with Squad containing 'Manchester'.")
+        log.info("No players found with Squad containing 'Manchester'.")
+
+
 except Exception as e:
     log.error("Could not connect to mongo: " + str(e))
 
