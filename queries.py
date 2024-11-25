@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 SERVER = os.getenv("SERVER")
 PORT = os.getenv("PORT")
-UNAME = quote_plus(os.getenv("USERNAME"))
+UNAME = quote_plus(os.getenv("USER"))
 UPASS = quote_plus(os.getenv("PASSWORD"))
 
 client = MongoClient(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/')

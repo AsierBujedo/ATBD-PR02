@@ -13,7 +13,7 @@ logger.basicConfig(filename='pr02.log', level=logger.INFO)
 load_dotenv() 
 SERVER = os.getenv("SERVER")
 PORT = os.getenv("PORT")
-UNAME = quote_plus(os.getenv("USERNAME"))
+UNAME = quote_plus(os.getenv("USER"))
 UPASS = quote_plus(os.getenv("PASSWORD"))
 
 # Transform data grouping by stats and other stats
@@ -54,8 +54,14 @@ documents = [transform_row(row) for _, row in data_subset.iterrows()]
 # Inserts the data into Mongo
 try:
     client = MongoClient(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/') # Connects to mongo
+    print(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/')
     db = client['football']
     collection = db['players']
+
+    collection.create_index("EstimatedStartYear")
+    collection.create_index("Player")
+    collection.create_index("Squad")
+    collection.create_index("Nation") 
 
     collection.drop() # Drops the collection to avoid redundance
     log.info(f"Collection {collection.name} dropped")
