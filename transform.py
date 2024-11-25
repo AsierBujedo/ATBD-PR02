@@ -28,7 +28,7 @@ def calculate_start_year(row):
 dataset['Estimated_Start_Year'] = dataset.apply(calculate_start_year, axis=1)
 
 # Eliminar columnas redundantes
-columns_to_drop = ['Year_Born', 'Born']  # Se eliminan las columnas relacionadas
+columns_to_drop = ['Year_Born']  # Se eliminan las columnas relacionadas
 cleaned_dataset = dataset.drop(columns=columns_to_drop)
 
 # Guardar el resultado en un nuevo archivo CSV

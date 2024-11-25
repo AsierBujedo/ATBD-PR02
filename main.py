@@ -46,10 +46,12 @@ def transform_row(row):
 }
 
 # Import and load data into pandas
-csv_file = './data/all_players.csv'
+csv_file = './data/dataset.csv'
 data = pd.read_csv(csv_file)
 data_subset = data.head(100)
 documents = [transform_row(row) for _, row in data_subset.iterrows()]
+
+# Inserts the data into Mongo
 
 try:
     client = MongoClient(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/') # Connects to mongo
