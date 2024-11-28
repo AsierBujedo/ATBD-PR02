@@ -3,40 +3,62 @@ from pymongo import MongoClient
 from urllib.parse import quote_plus
 from dotenv import load_dotenv
 
+# Cargar variables de entorno
 load_dotenv()
 SERVER = os.getenv("SERVER")
 PORT = os.getenv("PORT")
 UNAME = quote_plus(os.getenv("USER"))
 UPASS = quote_plus(os.getenv("PASSWORD"))
 
-client = MongoClient(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/')
+# Conectar a MongoDB
+client = MongoClient(f'mongodb://root:{UPASS}@{SERVER}:{PORT}/')
 db = client['football']
 collection = db['players']
 
-def measure_query_time(query):
+# Función para medir el tiempo de ejecución de una consulta
+def measure_query_time(collection, query):
     start_time = time.time()
-    result = list(collection.find(query))
+    result = list(collection.find(query)) 
     end_time = time.time()
-    execution_time = end_time - start_time
-    pretty_result = json.dumps(result, indent=4, default=str)
-    return execution_time, pretty_result
+    elapsed_time = end_time - start_time
+    return elapsed_time, result
 
-# a.i Filtrar por el año de comienzo mayor a 2020
-query_ai = {"EstimatedStartYear": {"$gt": 2020}}
-time_ai, result_ai = measure_query_time(query_ai)
-print("Resultado: \n" + str(result_ai))
-print(f"Consulta a.i ejecutada en {time_ai:.6f} segundos")
+# Función para ejecutar y almacenar los resultados de una consulta
+def execute_and_store_results(query_name, collection, query):
+    elapsed_time, result = measure_query_time(collection, query)
+    print(f"Resultado {query_name}:")
+    for doc in result:
+        print(doc)
+    print(f"Consulta {query_name} ejecutada en {elapsed_time:.6f} segundos")
+    return {
+        "query_name": query_name,
+        "execution_time": elapsed_time,
+        "results": result
+    }
+
+# Ejecutar consultas y almacenar resultados
+results_data = []
+
+# Consulta a.i
+query_ai = {"PersonalInfo.EstimatedStartYear": {"$gt": 2020}}
+result_ai = execute_and_store_results("a.i", collection, query_ai)
+results_data.append(result_ai)
 input("Presiona enter para ejecutar la consulta a.ii")
 
-# a.ii Filtrar por un equipo cuyo nombre empieza con "Manchester"
-query_aii = {"Squad": {"$regex": "^Manchester", "$options": "i"}}
-time_aii, result_aii = measure_query_time(query_aii)
-print("Resultado: \n" + str(result_aii))
-print(f"Consulta a.ii ejecutada en {time_aii:.6f} segundos")
-input("Presiona enter para ejecutar la consulta a.ii")
+# Consulta a.ii
+query_aii = {"PersonalInfo.Squad": {"$regex": "^Manchester", "$options": "i"}}
+result_aii = execute_and_store_results("a.ii", collection, query_aii)
+results_data.append(result_aii)
+input("Presiona enter para ejecutar la consulta b")
 
-# b Consulta por un país específico (por ejemplo, España)
-query_b = {"Nation": "es ESP"}
-time_b, result_b = measure_query_time(query_b)
-print("Resultado: \n" + str(result_b))
-print(f"Consulta b ejecutada en {time_b:.6f} segundos")
+# Consulta b
+query_b = {"PersonalInfo.Nation": "es ESP"}
+result_b = execute_and_store_results("b", collection, query_b)
+results_data.append(result_b)
+
+# Guardar resultados en un archivo JSON
+output_file = "query_results.json"
+with open(output_file, "w", encoding="utf-8") as json_file:
+    json.dump(results_data, json_file, default=str, indent=4)
+
+print(f"Resultados guardados en {output_file}")

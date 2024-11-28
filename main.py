@@ -94,9 +94,9 @@ try:
     collection.create_index("PersonalInfo.Squad")
     collection.create_index("PersonalInfo.Nation") 
 
-    collection.drop() # Drops the collection to avoid redundancy
+    collection.drop()
     log.info(f"Collection {collection.name} dropped")
-    result = collection.insert_many(documents) # Inserts 100 records
+    result = collection.insert_many(documents) 
     log.info(f"Inserted {len(result.inserted_ids)} record(s) to mongo")
 
     # Inserts a player from Manchester City
