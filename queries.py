@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 SERVER = os.getenv("SERVER")
 PORT = os.getenv("PORT")
-UNAME = quote_plus(os.getenv("USER"))
-UPASS = quote_plus(os.getenv("PASSWORD"))
+UNAME = quote_plus(os.getenv("USR"))
+UPASS = quote_plus(os.getenv("PWD"))
 
 # Conectar a MongoDB
 client = MongoClient(f'mongodb://root:{UPASS}@{SERVER}:{PORT}/')

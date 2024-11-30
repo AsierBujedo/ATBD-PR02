@@ -11,8 +11,8 @@ logger.basicConfig(filename='pr02.log', level=logger.INFO)
 load_dotenv()
 SERVER = os.getenv("SERVER")
 PORT = os.getenv("PORT")
-UNAME = quote_plus(os.getenv("USER"))
-UPASS = quote_plus(os.getenv("PASSWORD"))
+UNAME = quote_plus(os.getenv("USR"))
+UPASS = quote_plus(os.getenv("PWD"))
 
 def transform_row(row):
     aerial_duels_won = row["AerialDuels_Won"] if pd.notnull(row["AerialDuels_Won"]) else 0
@@ -33,8 +33,10 @@ def transform_row(row):
         "PersonalInfo": {
             "Nation": row["Nation"],
             "Position": row["Pos"].split(",") if pd.notnull(row["Pos"]) else [],
-            "Squad": row["Squad"],
-            "SquadID": row["Squad_id"],
+            "SquadInfo": {
+                "Squad": row["Squad"],
+                "SquadID": row["Squad_id"],
+            },
             "PlayerID": row["Player_id"],
             "Age": int(row["Age"].split("-")[0]) if pd.notnull(row["Age"]) else None,
             "Born": int(row["Born"]) if pd.notnull(row["Born"]) else None,
@@ -85,7 +87,7 @@ data_subset = data.head(100)
 documents = [transform_row(row) for _, row in data_subset.iterrows()]
 
 try:
-    client = MongoClient(f'mongodb://root:{UPASS}@{SERVER}:{PORT}/') # Connects to mongo
+    client = MongoClient(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/')
     db = client['football']
     collection = db['players']
 
