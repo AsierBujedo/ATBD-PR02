@@ -46,7 +46,7 @@ results_data.append(result_ai)
 input("Presiona enter para ejecutar la consulta a.ii")
 
 # Consulta a.ii
-query_aii = {"PersonalInfo.Squad": {"$regex": "^Manchester", "$options": "i"}}
+query_aii = {"PersonalInfo.SquadInfo.Squad": {"$regex": "^Manchester", "$options": "i"}}
 result_aii = execute_and_store_results("a.ii", collection, query_aii)
 results_data.append(result_aii)
 input("Presiona enter para ejecutar la consulta b")
@@ -56,9 +56,10 @@ query_b = {"PersonalInfo.Nation": "es ESP"}
 result_b = execute_and_store_results("b", collection, query_b)
 results_data.append(result_b)
 
-# Guardar resultados en un archivo JSON
-output_file = "query_results.json"
-with open(output_file, "w", encoding="utf-8") as json_file:
-    json.dump(results_data, json_file, default=str, indent=4)
-
-print(f"Resultados guardados en {output_file}")
+# Guardar resultados de cada consulta en archivos JSON separados
+for result in results_data:
+    query_name = result["query_name"]
+    output_file = f"results/query_results_{query_name}.json"
+    with open(output_file, "w", encoding="utf-8") as json_file:
+        json.dump(result, json_file, default=str, indent=4)
+    print(f"Resultados de la consulta {query_name} guardados en {output_file}")

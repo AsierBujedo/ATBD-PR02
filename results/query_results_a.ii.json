@@ -1,0 +1,62 @@
+{
+    "query_name": "a.ii",
+    "execution_time": 0.001415252685546875,
+    "results": [
+        {
+            "_id": "674aff785547597f0f1fa838",
+            "Player": "Laia Aleixandri",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Manchester City",
+                    "SquadID": "9ce68f8a"
+                },
+                "PlayerID": "31691fc9",
+                "Age": 22,
+                "Born": 2000,
+                "EstimatedStartYear": 2019
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 8,
+                "Starts": 8,
+                "MinutesPlayed": 679,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 0
+            },
+            "DefensiveStats": {
+                "TacklesWon": 0.0,
+                "Recoveries": 65.0,
+                "AerialDuels": {
+                    "Won": 6.0,
+                    "Lost": 5.0,
+                    "SuccessRate": 54.55
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 1.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 94.31
+            }
+        }
+    ]
+}

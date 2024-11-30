@@ -1,0 +1,1615 @@
+{
+    "query_name": "b",
+    "execution_time": 0.0020227432250976562,
+    "results": [
+        {
+            "_id": "674aff785547597f0f1fa7d4",
+            "Player": "TERESA ABILLEIRA",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Real Madrid",
+                    "SquadID": "54582b93"
+                },
+                "PlayerID": "46f75f0c",
+                "Age": 22,
+                "Born": 2000,
+                "EstimatedStartYear": 2020
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 9,
+                "Starts": 7,
+                "MinutesPlayed": 648,
+                "Goals": 3,
+                "NonPenaltyGoals": 3,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 1,
+                "AssistPerMatch": 0.11,
+                "SubstituteAppearances": 2
+            },
+            "DefensiveStats": {
+                "TacklesWon": 15.0,
+                "Recoveries": 52.0,
+                "AerialDuels": {
+                    "Won": 4.0,
+                    "Lost": 5.0,
+                    "SuccessRate": 44.44
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 18.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 80.0
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7d8",
+            "Player": "Yolanda Aguirre",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "GK"
+                ],
+                "SquadInfo": {
+                    "Squad": "Sevilla",
+                    "SquadID": "215d9026"
+                },
+                "PlayerID": "150b2d3b",
+                "Age": 24,
+                "Born": 1998,
+                "EstimatedStartYear": 2018
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 4,
+                "Starts": 4,
+                "MinutesPlayed": 360,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 0
+            },
+            "DefensiveStats": {
+                "TacklesWon": 0.0,
+                "Recoveries": 2.0,
+                "AerialDuels": {
+                    "Won": 1.0,
+                    "Lost": 1.0,
+                    "SuccessRate": 50.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 0.0,
+                "OwnGoals": 1,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 100.0
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7dd",
+            "Player": "Mar\u00eda Alharilla Casado",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Levante",
+                    "SquadID": "0f4738a8"
+                },
+                "PlayerID": "9581d587",
+                "Age": 32,
+                "Born": 1990,
+                "EstimatedStartYear": 2008
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 3,
+                "Starts": 0,
+                "MinutesPlayed": 100,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 3
+            },
+            "DefensiveStats": {
+                "TacklesWon": 4.0,
+                "Recoveries": 9.0,
+                "AerialDuels": {
+                    "Won": 0.0,
+                    "Lost": 0.0,
+                    "SuccessRate": 0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 1.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 37.04
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7e3",
+            "Player": "Ivana Andr\u00e9s",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Real Madrid",
+                    "SquadID": "54582b93"
+                },
+                "PlayerID": "d0309b28",
+                "Age": 28,
+                "Born": 1994,
+                "EstimatedStartYear": 2018
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 7,
+                "Starts": 7,
+                "MinutesPlayed": 630,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 1,
+                "AssistPerMatch": 0.14,
+                "SubstituteAppearances": 0
+            },
+            "DefensiveStats": {
+                "TacklesWon": 4.0,
+                "Recoveries": 50.0,
+                "AerialDuels": {
+                    "Won": 4.0,
+                    "Lost": 3.0,
+                    "SuccessRate": 57.14
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 0.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 100.0
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7e9",
+            "Player": "Carla Armengol",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "FW",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Alav\u00e9s",
+                    "SquadID": "aa11fb42"
+                },
+                "PlayerID": "25f540ad",
+                "Age": 24,
+                "Born": 1998,
+                "EstimatedStartYear": 2019
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 11,
+                "Starts": 8,
+                "MinutesPlayed": 597,
+                "Goals": 1,
+                "NonPenaltyGoals": 1,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 3
+            },
+            "DefensiveStats": {
+                "TacklesWon": 3.0,
+                "Recoveries": 17.0,
+                "AerialDuels": {
+                    "Won": 0.0,
+                    "Lost": 1.0,
+                    "SuccessRate": 0.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 5.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 60.3
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7ea",
+            "Player": "Iris Arnaiz Gil",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF",
+                    "DF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Real Sociedad",
+                    "SquadID": "c21f25d3"
+                },
+                "PlayerID": "aec17e23",
+                "Age": 28,
+                "Born": 1994,
+                "EstimatedStartYear": 2020
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 7,
+                "Starts": 6,
+                "MinutesPlayed": 559,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 1
+            },
+            "DefensiveStats": {
+                "TacklesWon": 6.0,
+                "Recoveries": 42.0,
+                "AerialDuels": {
+                    "Won": 13.0,
+                    "Lost": 3.0,
+                    "SuccessRate": 81.25
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 2,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 1.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 88.73
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7ec",
+            "Player": "Eunate Arraiza",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "FW"
+                ],
+                "SquadInfo": {
+                    "Squad": "Athletic Club",
+                    "SquadID": "94929c05"
+                },
+                "PlayerID": "7685f89a",
+                "Age": 31,
+                "Born": 1991,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 7,
+                "Starts": 2,
+                "MinutesPlayed": 198,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 5
+            },
+            "DefensiveStats": {
+                "TacklesWon": 4.0,
+                "Recoveries": 12.0,
+                "AerialDuels": {
+                    "Won": 3.0,
+                    "Lost": 2.0,
+                    "SuccessRate": 60.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 5.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 31.43
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7ef",
+            "Player": "Mar\u00eda Asunci\u00f3n Qui\u00f1ones",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "GK"
+                ],
+                "SquadInfo": {
+                    "Squad": "Athletic Club",
+                    "SquadID": "94929c05"
+                },
+                "PlayerID": "55ff64ce",
+                "Age": 26,
+                "Born": 1996,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 11,
+                "Starts": 11,
+                "MinutesPlayed": 990,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 0
+            },
+            "DefensiveStats": {
+                "TacklesWon": 0.0,
+                "Recoveries": 9.0,
+                "AerialDuels": {
+                    "Won": 1.0,
+                    "Lost": 0.0,
+                    "SuccessRate": 100.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 0.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 100.0
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7f1",
+            "Player": "Ane Azkona",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "FW"
+                ],
+                "SquadInfo": {
+                    "Squad": "Athletic Club",
+                    "SquadID": "94929c05"
+                },
+                "PlayerID": "2dfa2aa3",
+                "Age": 24,
+                "Born": 1998,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 11,
+                "Starts": 10,
+                "MinutesPlayed": 905,
+                "Goals": 2,
+                "NonPenaltyGoals": 2,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 1,
+                "AssistPerMatch": 0.09,
+                "SubstituteAppearances": 1
+            },
+            "DefensiveStats": {
+                "TacklesWon": 4.0,
+                "Recoveries": 34.0,
+                "AerialDuels": {
+                    "Won": 6.0,
+                    "Lost": 14.0,
+                    "SuccessRate": 30.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 2,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 13.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 91.41
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7f9",
+            "Player": "Leire Ba\u00f1os",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Levante",
+                    "SquadID": "0f4738a8"
+                },
+                "PlayerID": "3d077d16",
+                "Age": 26,
+                "Born": 1996,
+                "EstimatedStartYear": 2018
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 11,
+                "Starts": 11,
+                "MinutesPlayed": 963,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 0
+            },
+            "DefensiveStats": {
+                "TacklesWon": 9.0,
+                "Recoveries": 70.0,
+                "AerialDuels": {
+                    "Won": 12.0,
+                    "Lost": 12.0,
+                    "SuccessRate": 50.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 2,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 7.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 97.27
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7fa",
+            "Player": "Ainize Barea N\u00fa\u00f1ez",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "FW",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Athletic Club",
+                    "SquadID": "94929c05"
+                },
+                "PlayerID": "08137080",
+                "Age": 30,
+                "Born": 1992,
+                "EstimatedStartYear": 2018
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 11,
+                "Starts": 7,
+                "MinutesPlayed": 650,
+                "Goals": 2,
+                "NonPenaltyGoals": 2,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 4
+            },
+            "DefensiveStats": {
+                "TacklesWon": 1.0,
+                "Recoveries": 26.0,
+                "AerialDuels": {
+                    "Won": 2.0,
+                    "Lost": 10.0,
+                    "SuccessRate": 16.67
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 14.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 65.66
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa7fd",
+            "Player": "Alejandra Bernabe",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Real Sociedad",
+                    "SquadID": "c21f25d3"
+                },
+                "PlayerID": "daeee8a9",
+                "Age": 21,
+                "Born": 2001,
+                "EstimatedStartYear": 2019
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 10,
+                "Starts": 10,
+                "MinutesPlayed": 807,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 1,
+                "AssistPerMatch": 0.1,
+                "SubstituteAppearances": 0
+            },
+            "DefensiveStats": {
+                "TacklesWon": 9.0,
+                "Recoveries": 84.0,
+                "AerialDuels": {
+                    "Won": 8.0,
+                    "Lost": 6.0,
+                    "SuccessRate": 57.14
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 21.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 89.67
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa802",
+            "Player": "Aitana Bonmat\u00ed",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Barcelona",
+                    "SquadID": "15f49df1"
+                },
+                "PlayerID": "f3d165f5",
+                "Age": 24,
+                "Born": 1998,
+                "EstimatedStartYear": 2018
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 7,
+                "Starts": 5,
+                "MinutesPlayed": 461,
+                "Goals": 1,
+                "NonPenaltyGoals": 1,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 2
+            },
+            "DefensiveStats": {
+                "TacklesWon": 5.0,
+                "Recoveries": 34.0,
+                "AerialDuels": {
+                    "Won": 2.0,
+                    "Lost": 3.0,
+                    "SuccessRate": 40.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 6.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 73.17
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa808",
+            "Player": "Mariona Caldentey",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "FW",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Barcelona",
+                    "SquadID": "15f49df1"
+                },
+                "PlayerID": "59da315a",
+                "Age": 26,
+                "Born": 1996,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 7,
+                "Starts": 4,
+                "MinutesPlayed": 506,
+                "Goals": 3,
+                "NonPenaltyGoals": 3,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 1,
+                "Assists": 4,
+                "AssistPerMatch": 0.57,
+                "SubstituteAppearances": 3
+            },
+            "DefensiveStats": {
+                "TacklesWon": 2.0,
+                "Recoveries": 33.0,
+                "AerialDuels": {
+                    "Won": 1.0,
+                    "Lost": 1.0,
+                    "SuccessRate": 50.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 10.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 80.32
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa809",
+            "Player": "Nagore Calder\u00f3n",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Sevilla",
+                    "SquadID": "215d9026"
+                },
+                "PlayerID": "8e0e1589",
+                "Age": 29,
+                "Born": 1993,
+                "EstimatedStartYear": 2019
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 11,
+                "Starts": 7,
+                "MinutesPlayed": 643,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 1,
+                "AssistPerMatch": 0.09,
+                "SubstituteAppearances": 4
+            },
+            "DefensiveStats": {
+                "TacklesWon": 11.0,
+                "Recoveries": 53.0,
+                "AerialDuels": {
+                    "Won": 2.0,
+                    "Lost": 0.0,
+                    "SuccessRate": 100.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 7.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 64.95
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa80f",
+            "Player": "Estela Carbonell",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Levante",
+                    "SquadID": "0f4738a8"
+                },
+                "PlayerID": "80df9863",
+                "Age": 18,
+                "Born": 2004,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 5,
+                "Starts": 4,
+                "MinutesPlayed": 261,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 1
+            },
+            "DefensiveStats": {
+                "TacklesWon": 4.0,
+                "Recoveries": 23.0,
+                "AerialDuels": {
+                    "Won": 4.0,
+                    "Lost": 1.0,
+                    "SuccessRate": 80.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 15.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 1.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 58.0
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa810",
+            "Player": "Marta Cardona",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "FW",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Atl\u00e9tico Madrid",
+                    "SquadID": "b56c2667"
+                },
+                "PlayerID": "02d10cee",
+                "Age": 27,
+                "Born": 1995,
+                "EstimatedStartYear": 2020
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 10,
+                "Starts": 7,
+                "MinutesPlayed": 618,
+                "Goals": 1,
+                "NonPenaltyGoals": 1,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 2,
+                "AssistPerMatch": 0.2,
+                "SubstituteAppearances": 3
+            },
+            "DefensiveStats": {
+                "TacklesWon": 6.0,
+                "Recoveries": 32.0,
+                "AerialDuels": {
+                    "Won": 1.0,
+                    "Lost": 2.0,
+                    "SuccessRate": 33.33
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 20.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 68.67
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa812",
+            "Player": "Olga Carmona",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Real Madrid",
+                    "SquadID": "54582b93"
+                },
+                "PlayerID": "830c134a",
+                "Age": 22,
+                "Born": 2000,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 8,
+                "Starts": 5,
+                "MinutesPlayed": 466,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 2,
+                "AssistPerMatch": 0.25,
+                "SubstituteAppearances": 3
+            },
+            "DefensiveStats": {
+                "TacklesWon": 6.0,
+                "Recoveries": 39.0,
+                "AerialDuels": {
+                    "Won": 3.0,
+                    "Lost": 5.0,
+                    "SuccessRate": 37.5
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 3,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 19.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 64.72
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa816",
+            "Player": "Marta Carro",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Valencia",
+                    "SquadID": "f96ff499"
+                },
+                "PlayerID": "fc74a000",
+                "Age": 31,
+                "Born": 1991,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 9,
+                "Starts": 8,
+                "MinutesPlayed": 744,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 1
+            },
+            "DefensiveStats": {
+                "TacklesWon": 3.0,
+                "Recoveries": 38.0,
+                "AerialDuels": {
+                    "Won": 10.0,
+                    "Lost": 11.0,
+                    "SuccessRate": 47.62
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 2.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 91.85
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa820",
+            "Player": "Claudia",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Real Madrid",
+                    "SquadID": "54582b93"
+                },
+                "PlayerID": "46cc62c2",
+                "Age": 24,
+                "Born": 1998,
+                "EstimatedStartYear": 2015
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 2,
+                "Starts": 0,
+                "MinutesPlayed": 62,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 2
+            },
+            "DefensiveStats": {
+                "TacklesWon": 0.0,
+                "Recoveries": 3.0,
+                "AerialDuels": {
+                    "Won": 2.0,
+                    "Lost": 0.0,
+                    "SuccessRate": 100.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 0.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 34.44
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa821",
+            "Player": "Laia Codina",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Barcelona",
+                    "SquadID": "15f49df1"
+                },
+                "PlayerID": "1efbd058",
+                "Age": 22,
+                "Born": 2000,
+                "EstimatedStartYear": 2019
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 5,
+                "Starts": 2,
+                "MinutesPlayed": 207,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 3
+            },
+            "DefensiveStats": {
+                "TacklesWon": 0.0,
+                "Recoveries": 18.0,
+                "AerialDuels": {
+                    "Won": 1.0,
+                    "Lost": 1.0,
+                    "SuccessRate": 50.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 0.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 46.0
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa825",
+            "Player": "Yulema Corres",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Athletic Club",
+                    "SquadID": "94929c05"
+                },
+                "PlayerID": "d60aaf02",
+                "Age": 30,
+                "Born": 1992,
+                "EstimatedStartYear": 2019
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 1,
+                "Starts": 1,
+                "MinutesPlayed": 45,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 0
+            },
+            "DefensiveStats": {
+                "TacklesWon": 0.0,
+                "Recoveries": 4.0,
+                "AerialDuels": {
+                    "Won": 1.0,
+                    "Lost": 2.0,
+                    "SuccessRate": 33.33
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 0.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 50.0
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa828",
+            "Player": "Iglesias De La Cruz",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF",
+                    "FW"
+                ],
+                "SquadInfo": {
+                    "Squad": "Villarreal",
+                    "SquadID": "7a7bef84"
+                },
+                "PlayerID": "d5195e84",
+                "Age": 19,
+                "Born": 2003,
+                "EstimatedStartYear": 2018
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 9,
+                "Starts": 1,
+                "MinutesPlayed": 227,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 8
+            },
+            "DefensiveStats": {
+                "TacklesWon": 3.0,
+                "Recoveries": 12.0,
+                "AerialDuels": {
+                    "Won": 4.0,
+                    "Lost": 1.0,
+                    "SuccessRate": 80.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 2,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 7.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 28.02
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa829",
+            "Player": "Athenea del Castillo",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "FW",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Real Madrid",
+                    "SquadID": "54582b93"
+                },
+                "PlayerID": "cd031048",
+                "Age": 22,
+                "Born": 2000,
+                "EstimatedStartYear": 2018
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 10,
+                "Starts": 9,
+                "MinutesPlayed": 797,
+                "Goals": 3,
+                "NonPenaltyGoals": 3,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 2,
+                "AssistPerMatch": 0.2,
+                "SubstituteAppearances": 1
+            },
+            "DefensiveStats": {
+                "TacklesWon": 17.0,
+                "Recoveries": 46.0,
+                "AerialDuels": {
+                    "Won": 2.0,
+                    "Lost": 6.0,
+                    "SuccessRate": 25.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 38.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 88.56
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa82b",
+            "Player": "Miriam Di\u00e9guez",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Alav\u00e9s",
+                    "SquadID": "aa11fb42"
+                },
+                "PlayerID": "47df4a71",
+                "Age": 36,
+                "Born": 1986,
+                "EstimatedStartYear": 2019
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 11,
+                "Starts": 10,
+                "MinutesPlayed": 945,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 1
+            },
+            "DefensiveStats": {
+                "TacklesWon": 13.0,
+                "Recoveries": 71.0,
+                "AerialDuels": {
+                    "Won": 3.0,
+                    "Lost": 2.0,
+                    "SuccessRate": 60.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 13.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 95.45
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa82c",
+            "Player": "Nekane D\u00edez",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF",
+                    "FW"
+                ],
+                "SquadInfo": {
+                    "Squad": "Athletic Club",
+                    "SquadID": "94929c05"
+                },
+                "PlayerID": "4c0a4b1e",
+                "Age": 31,
+                "Born": 1991,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 6,
+                "Starts": 1,
+                "MinutesPlayed": 108,
+                "Goals": 1,
+                "NonPenaltyGoals": 1,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 5
+            },
+            "DefensiveStats": {
+                "TacklesWon": 1.0,
+                "Recoveries": 3.0,
+                "AerialDuels": {
+                    "Won": 1.0,
+                    "Lost": 0.0,
+                    "SuccessRate": 100.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 0.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 20.0
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa82d",
+            "Player": "Silvia Doblado",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF",
+                    "FW"
+                ],
+                "SquadInfo": {
+                    "Squad": "UDG Tenerife",
+                    "SquadID": "4c088abe"
+                },
+                "PlayerID": "00bdb60c",
+                "Age": 35,
+                "Born": 1987,
+                "EstimatedStartYear": 2020
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 8,
+                "Starts": 4,
+                "MinutesPlayed": 300,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 4
+            },
+            "DefensiveStats": {
+                "TacklesWon": 7.0,
+                "Recoveries": 22.0,
+                "AerialDuels": {
+                    "Won": 4.0,
+                    "Lost": 2.0,
+                    "SuccessRate": 66.67
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 2.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 41.67
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa832",
+            "Player": "Nerea Eizaguirre",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "MF",
+                    "FW"
+                ],
+                "SquadInfo": {
+                    "Squad": "Real Sociedad",
+                    "SquadID": "c21f25d3"
+                },
+                "PlayerID": "7e9faac9",
+                "Age": 22,
+                "Born": 2000,
+                "EstimatedStartYear": 2021
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 10,
+                "Starts": 8,
+                "MinutesPlayed": 713,
+                "Goals": 2,
+                "NonPenaltyGoals": 1,
+                "PenaltiesScored": 1,
+                "PenaltiesAttempted": 1,
+                "Assists": 6,
+                "AssistPerMatch": 0.6,
+                "SubstituteAppearances": 2
+            },
+            "DefensiveStats": {
+                "TacklesWon": 9.0,
+                "Recoveries": 37.0,
+                "AerialDuels": {
+                    "Won": 2.0,
+                    "Lost": 2.0,
+                    "SuccessRate": 50.0
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 1,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 30.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 79.22
+            }
+        },
+        {
+            "_id": "674aff785547597f0f1fa838",
+            "Player": "Laia Aleixandri",
+            "PersonalInfo": {
+                "Nation": "es ESP",
+                "Position": [
+                    "DF",
+                    "MF"
+                ],
+                "SquadInfo": {
+                    "Squad": "Manchester City",
+                    "SquadID": "9ce68f8a"
+                },
+                "PlayerID": "31691fc9",
+                "Age": 22,
+                "Born": 2000,
+                "EstimatedStartYear": 2019
+            },
+            "PerformanceStats": {
+                "MatchesPlayed": 8,
+                "Starts": 8,
+                "MinutesPlayed": 679,
+                "Goals": 0,
+                "NonPenaltyGoals": 0,
+                "PenaltiesScored": 0,
+                "PenaltiesAttempted": 0,
+                "Assists": 0,
+                "AssistPerMatch": 0.0,
+                "SubstituteAppearances": 0
+            },
+            "DefensiveStats": {
+                "TacklesWon": 0.0,
+                "Recoveries": 65.0,
+                "AerialDuels": {
+                    "Won": 6.0,
+                    "Lost": 5.0,
+                    "SuccessRate": 54.55
+                }
+            },
+            "DisciplinaryStats": {
+                "YellowCards": 0,
+                "SecondYellowCards": 0,
+                "RedCards": 0
+            },
+            "SpecialEvents": {
+                "Crosses": 1.0,
+                "OwnGoals": 0,
+                "Penalties": {
+                    "Won": 0.0,
+                    "Conceded": 0.0
+                }
+            },
+            "AdvancedStats": {
+                "MinutesPlayedRatio": 94.31
+            }
+        }
+    ]
+}

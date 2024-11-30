@@ -1,0 +1,90 @@
+services:
+  hbase-db:
+    image: harisekhon/hbase
+    ports:
+      - "16000:16000" 
+      - "16010:16010"  
+      - "16020:16020"  
+      - "16030:16030"  
+      - "2181:2181"  
+    environment:
+      HBASE_CONF_DIR: /hbase/conf
+      HBASE_LOG_DIR: /hbase/logs
+      HBASE_HEAPSIZE: "1024"
+      HBASE_MANAGES_ZK: "true"
+    volumes:
+      - hbase-data:/hbase
+    networks:
+      - db-network
+    profiles:
+      - hbase
+  
+  cassandra-db:
+    image: cassandra
+    ports:
+      - "9042:9042"
+    volumes:
+      - cassandra-data:/var/lib/cassandra
+    networks:
+      - db-network
+    profiles:
+      - cassandra
+
+  neo4j-db:
+    image: neo4j
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/neo4jroot
+    volumes:
+      - neo4j-data:/data
+    networks:
+      - db-network
+    profiles:
+      - neo4j
+
+  influx-db:
+    image: influxdb
+    ports:
+      - "8086:8086"
+    volumes:
+      - influx-data:/var/lib/influxdb
+    environment:
+      INFLUXDB_DB: influx
+      INFLUXDB_ADMIN_USER: root
+      INFLUXDB_ADMIN_PASSWORD: root
+    networks:
+      - db-network
+    profiles:
+      - influx
+
+  mongo-db:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - db-network
+    profiles:
+      - mongo
+
+networks:
+  db-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local
+  cassandra-data:
+    driver: local
+  hbase-data:
+    driver: local
+  neo4j-data:
+    driver: local
+  influx-data:
+    driver: local

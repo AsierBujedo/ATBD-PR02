@@ -8,13 +8,15 @@ import logging as log
 load_dotenv()
 SERVER = os.getenv("SERVER")
 PORT = os.getenv("PORT")
-UNAME = quote_plus(os.getenv("USER"))
-UPASS = quote_plus(os.getenv("PASSWORD"))
+UNAME = quote_plus(os.getenv("USR"))
+UPASS = quote_plus(os.getenv("PWD"))
 
 try:
     client = MongoClient(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/')
     db = client['football']
     collection = db['players']
+
+    # UPDATE PLAYER Teresa Abilleira
 
     name1 = "Teresa Abilleira"
     start_time = time.time()
@@ -26,6 +28,8 @@ try:
     execution_time1 = end_time - start_time
     print(f"Actualización de {name1} ejecutada en {execution_time1:.6f} segundos.")
     input("Presiona enter para ejecutar la segunda modificación")
+
+    # UPDATE PLAYER Jessica Aby
 
     name2 = "Jessica Aby"
     start_time = time.time()
