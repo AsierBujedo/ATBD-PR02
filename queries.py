@@ -11,7 +11,7 @@ UNAME = quote_plus(os.getenv("USR"))
 UPASS = quote_plus(os.getenv("PWD"))
 
 # Conectar a MongoDB
-client = MongoClient(f'mongodb://root:{UPASS}@{SERVER}:{PORT}/')
+client = MongoClient(f'mongodb://{UNAME}:{UPASS}@{SERVER}:{PORT}/')
 db = client['football']
 collection = db['players']
 
